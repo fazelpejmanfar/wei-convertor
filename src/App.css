@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 565px) {
+  .inputs {
+  flex-direction: column;
+  }
+}
+
+.weitoeth {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ethtowei {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
